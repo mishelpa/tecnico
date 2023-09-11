@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import  "./Navbar.scss"
 
-const Navbar = () => {
+function Navbar() {
   return (
     <nav className="nav w-full py-4 px-4 sm:px-16">
         <div id="container-nav" className="container-nav flex justify-between">
