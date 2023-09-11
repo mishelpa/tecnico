@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.section-body__left {
+	.section-body__image {
+		border-radius: 40px;
+	}
+}
+.section-body__right {
+  .description-container {
+		.title {
+			background: linear-gradient(86.01deg, #00f4e2, #00ff7f);
+			border-radius: 4px;
+			color: #03050f;
+			font-family: BRSonoma, sans-serif;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 700;
+			letter-spacing: 0.4px;
+			line-height: 16px;
+			margin-bottom: 8px;
+			margin-top: 30px;
+			padding: 4px 8px;
+		}
+		.subtitle {
+			font-size: 2rem;
+		}
+  }
+
+  .img-mobile {
+	border-radius: 30px;
+  }
+}
